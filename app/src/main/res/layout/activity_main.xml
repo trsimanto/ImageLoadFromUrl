@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/img_View"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অনেকদিন থেকেই আমার একটা পাহাড় কেনার শখ।
+… কিন্তু পাহাড় কে বিক্রি করে তা জানি না।
+… যদি তার দেখা পেতাম,
+দামের জন্য আটকাতো না।
+আমার নিজস্ব একটা নদী আছে,
+সেটা দিয়ে দিতাম পাহাড়টার বদলে।
+কে না জানে, পাহাড়ের চেয়ে নদীর দামই বেশী।
+পাহাড় স্থান, নদী বহমান।
+তবু আমি নদীর বদলে পাহাড়টাই
+কিনতাম।
+কারণ, আমি ঠকতে চাই।
+"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:paddingBottom="60dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="16dp"
+        android:lineSpacingExtra="10dp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
